@@ -40,7 +40,11 @@ background-color: #6610f2;
 color: white;
 }
 
-
+@media (max-width: 800px){
+  .navsearch{
+    width:100px
+  }
+}
  
 @keyframes App-logo-spin {
   from {

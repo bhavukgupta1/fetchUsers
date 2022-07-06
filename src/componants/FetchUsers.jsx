@@ -73,13 +73,17 @@ export default function FetchUsers() {
 
                 <div className="container" style={{ width: 600 }}>
 
-
-                    <div className='d-flex justify-content-between'>
-                        <span>Name</span>
-                        <span>Email</span>
-                        <span>Status</span>
-                        <span>Actions</span>
-                    </div>
+                    <table className=" text-left table" style={{width:"100%"}}>
+                        <thead>
+                            <tr>
+                                <th style={{width:"20%" }} scope="col" >    <span>Name</span> </th>
+                                <th className=" text-center" style={{width:"50%" }} scope="col">   <span>Email</span> </th>
+                                <th style={{width:"20%" }}  scope="col"><span>Status</span>   </th>
+                                <th style={{width:"10%" }} scope="col"> <span>Actions</span>   </th>
+                            </tr>
+                        </thead>
+                     
+                    </table>
                 </div>
                 {data.map((element, key) => {
                     // console.log(element);
@@ -87,7 +91,7 @@ export default function FetchUsers() {
                     return (
 
                         <div>
- 
+
                             <User id={element.id} avatar={element.avatar} uname={element.first_name} email={element.email} />
 
                         </div>

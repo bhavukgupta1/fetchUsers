@@ -2,8 +2,7 @@ import React from 'react'
 
 export default function Navbar() {
     return (
-        <div >
-            
+        <div >           
             <nav className="navbar ">
                 <div className="container">
                     <a className="navbar-brand" href="#">
@@ -12,7 +11,7 @@ export default function Navbar() {
                         <img src="favicon-32x32.png" width={50} alt="" />
                     </a>
                     <form className="d-flex" role="search">
-                        <input className="form-control me-2"style={{width:'400px'}} type="search" placeholder="Search" aria-label="Search" />
+                        <input className="form-control navsearch me-2"style={{width:'400px'}} type="search" placeholder="Search" aria-label="Search" />
                         <button className="btn btn-outline-success" type="submit">Search</button>
                     </form>
                     <a className="navbar-brand" href="#">
