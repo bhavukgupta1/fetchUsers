@@ -87,7 +87,7 @@ export default function FetchUsers() {
                     return (
 
                         <div>
-
+ 
                             <User id={element.id} avatar={element.avatar} uname={element.first_name} email={element.email} />
 
                         </div>
