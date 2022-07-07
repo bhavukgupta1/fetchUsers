@@ -44,7 +44,7 @@ export default function FetchUsers() {
         <div>
 
 
-            <nav className="container d-flex justify-content-between my-3" style={{ width: 650 }}>
+            <nav id='nav2 ' style={{width:"650px"}} className=" container d-flex justify-content-between my-3" >
 
                 <span class="navbar-text">
                     <h2> Visitors     </h2>
@@ -73,16 +73,16 @@ export default function FetchUsers() {
 
                 <div className="container" style={{ width: 600 }}>
 
-                    <table className=" text-left table" style={{width:"100%"}}>
+                    <table className=" text-left table" style={{ width: "100%" }}>
                         <thead>
                             <tr>
-                                <th style={{width:"20%" }} scope="col" >    <span>Name</span> </th>
-                                <th className=" text-center" style={{width:"50%" }} scope="col">   <span>Email</span> </th>
-                                <th style={{width:"20%" }}  scope="col"><span>Status</span>   </th>
-                                <th style={{width:"10%" }} scope="col"> <span>Actions</span>   </th>
+                                <th style={{ width: "20%" }} scope="col" >    <span>Name</span> </th>
+                                <th className=" text-center" style={{ width: "50%" }} scope="col">   <span>Email</span> </th>
+                                <th className='thead' style={{ width: "20%" }} scope="col"><span>Status</span>   </th>
+                                <th className='thead' style={{ width: "10%" }} scope="col"> <span>Actions</span>   </th>
                             </tr>
                         </thead>
-                     
+
                     </table>
                 </div>
                 {data.map((element, key) => {

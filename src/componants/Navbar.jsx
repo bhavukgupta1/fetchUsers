@@ -1,4 +1,5 @@
 import React from 'react'
+import "../App.css"
 
 export default function Navbar() {
     return (
@@ -10,11 +11,11 @@ export default function Navbar() {
 
                         <img src="favicon-32x32.png" width={50} alt="" />
                     </a>
-                    <form className="d-flex" role="search">
-                        <input className="form-control navsearch me-2"style={{width:'400px'}} type="search" placeholder="Search" aria-label="Search" />
-                        <button className="btn btn-outline-success" type="submit">Search</button>
+                    <form id='navform' className="d-flex" role="search">
+                        <input id="search" className="form-control  me-2"style={{width:'400px'}} type="search" placeholder="Search" aria-label="Search" />
+                        <button className="btn btn-outline-success btn-sm" type="submit">Search</button>
                     </form>
-                    <a className="navbar-brand" href="#">
+                    <a id='admin' className="navbar-brand" href="#">
                         <span class="navbar-text">
                             Admin
                         </span>

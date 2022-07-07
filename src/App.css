@@ -40,12 +40,6 @@ background-color: #6610f2;
 color: white;
 }
 
-@media (max-width: 800px){
-  .navsearch{
-    width:100px
-  }
-}
- 
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -54,3 +48,41 @@ color: white;
     transform: rotate(360deg);
   }
 }
+
+
+/* 
+@media (max-width: 800px){
+  #search{
+    width:100px
+  }
+} */
+ 
+@media (max-width: 800px){
+  .thead{
+  display:none;
+  }
+}
+
+@media (max-width: 800px){
+  #nav2{
+  width:350px;
+  }
+}
+
+@media (max-width: 800px){
+  #admin{
+    display:none;
+  }
+}
+
+
+@media (max-width: 800px){
+  #navform{
+   width:50%
+  }
+}
+
+
+/* #nav2{
+  width:700px
+} */

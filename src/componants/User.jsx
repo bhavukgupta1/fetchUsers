@@ -111,7 +111,7 @@ export default function User(props) {
                 <table className=" text-left table" style={{ width: "100%" }}>
                     <tbody>
                         <tr>
-                            <td style={{ width: "30%"}} scope="col" >    <span>
+                            <td style={{ width: "30%" }} scope="col" >    <span>
                                 <img width={25} src={avatar} alt="image" />
                                 <span className='username navbar-text' data-toggle="modal" data-target="#exampleModal" style={{ cursor: 'pointer', color: "#6610f2" }} >
                                     <button type="button" style={{ cursor: 'pointer', color: "#6610f2" }} className="btn btn-link " data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -120,20 +120,21 @@ export default function User(props) {
                                 </span>
                             </span>
                             </td>
-                            <td style={{ width: "40%"}} scope="col">
+                            <td style={{ width: "40%" }} scope="col">
                                 <span className="navbar-text">
                                     {email}
                                 </span>
                             </td>
-                            <td style={{ width: "20%"}} scope="col">
+                            <td className='thead' style={{ width: "20%" }} scope="col">
                                 <span className="navbar-text badge rounded-pill " style={style}>
                                     {status}
                                 </span>
                             </td>
-                            <td style={{ width: "10%"}} scope="col">
+                            <td className='thead' style={{ width: "10%" }} scope="col">
                                 <span className='my-3'>
                                     <ion-icon name="eye-outline" />
-                                </span> </td>
+                                </span>
+                            </td>
                         </tr>
                     </tbody>
 
